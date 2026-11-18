@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#000000">
+  <meta name="description" content="Find your rhythm. Learn to DJ with two real decks, guided lessons and an offline music crate.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="First Mix">
+  <title>First Mix — your space to learn to DJ</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="./assets/icon.svg">
+  <link rel="apple-touch-icon" href="./assets/icon-192.png">
+  <link rel="preload" href="./assets/inter.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to workspace</a>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Main navigation">
+      <a class="wordmark" href="#studio" aria-label="First Mix home"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M4 13v6M10 6v20M16 10v12M22 3v26M28 13v6"/></svg><span>first<span class="wordmark-light">mix</span></span></a>
+      <div class="workspace-label">Your practice space</div>
+      <nav>
+        <a href="#studio" data-nav="studio"><svg viewBox="0 0 24 24"><path d="M3 5v14M9 5v14M15 5v14M21 5v14M1 9h4M7 15h4M13 10h4M19 16h4"/></svg>Mix studio</a>
+        <a href="#learn" data-nav="learn"><svg viewBox="0 0 24 24"><path d="m3 5 9 3 9-3v14l-9 3-9-3V5Zm9 3v14"/></svg>Learn to DJ</a>
+        <a href="#library" data-nav="library"><svg viewBox="0 0 24 24"><path d="M4 4v16M9 4v16m5-16 6 15M2 7h4M7 7h4"/></svg>Your crate</a>
+        <a href="#music" data-nav="music"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M7 10c4-2 7-1 10 0M8 13c3-1 5-1 8 0m-7 3c2-1 3-1 5 0"/></svg>Music sources</a>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="practice-progress"><span>Your journey</span><strong id="progress-count">0 of 4 lessons</strong><div class="progress-track"><span id="progress-fill"></span></div></div>
+        <button class="plain install-action" type="button"><svg viewBox="0 0 24 24"><path d="M12 3v12m-4-4 4 4 4-4M4 16v5h16v-5"/></svg>Install on iPad</button>
+        <span class="small muted">A little practice. A better mix.</span>
+      </div>
+    </aside>
+    <div class="workspace">
+      <header class="topbar"><div class="breadcrumb"><span>First Mix</span><span class="breadcrumb-divider">/</span><span id="page-name">Mix studio</span></div><div class="top-actions"><span id="offline-status" class="small muted">Browser session</span><button id="audio-enable" class="button primary">Enable audio</button></div></header>
+      <nav class="mobile-nav" aria-label="Main navigation"><a href="#studio" data-nav="studio">Studio</a><a href="#learn" data-nav="learn">Learn</a><a href="#library" data-nav="library">Crate</a><a href="#music" data-nav="music">Music</a></nav>
+      <main id="main" tabindex="-1"></main>
+      <footer class="app-footer"><span>Made for the first mix. And the next one.</span><button class="text-button install-action">Install app</button><button id="shortcuts" class="text-button">Keyboard shortcuts</button></footer>
+    </div>
+  </div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <dialog id="modal"><div id="modal-content"></div></dialog>
+  <input id="audio-file" type="file" accept="audio/*,.mp3,.wav,.m4a,.aac,.ogg,.flac" hidden>
+  <noscript><p class="noscript">First Mix needs JavaScript for its audio mixer. Enable JavaScript, then reload.</p></noscript>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

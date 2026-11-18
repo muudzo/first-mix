@@ -1,0 +1,50 @@
+FIRST MIX — MUSIC CREDITS
+
+Lost The Plot — Beat Doctor
+Released by Toucan Music, EP tou253.
+Source: https://www.toucanmusic.com/releases/tou253
+License: Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+
+World of Fantasy (Beat Doctor remix) — Psychadelik Pedestrian; remix by Beat Doctor
+Released by Toucan Music, EP tou272.
+Source: https://www.toucanmusic.com/releases/tou272
+License: Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+
+Afrobeat / Hot Amapiano Beats — Alex Morgan
+Released on Pop, Afro & Party Instrumentals.
+Sources:
+https://freemusicarchive.org/music/alex-morgan/pop-afro-party-instrumentals/afrobeat-1/
+https://freemusicarchive.org/music/alex-morgan/pop-afro-party-instrumentals/hot-amapiano-beats/
+License: Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+The artist marks these tracks as wholly or partly AI generated. This is
+disclosed in First Mix's crate and credits. They are not famous DJs' recordings.
+
+Scatter — 1000 Handz
+Please credit 1000Handz.com — https://1000handz.com
+Source:
+https://freemusicarchive.org/music/1000-handz/cc-by-free-to-use-melodic-rap-instrumentals-vol-2/scatter-2/
+License: Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+
+Thank you to the artists, Toucan Music (https://www.toucanmusic.com),
+1000Handz.com (https://1000handz.com) and Free Music Archive
+(https://freemusicarchive.org).
+The catalog MP3 files are hosted unchanged from the label's download links.
+During a mix, playback may alter tempo, EQ, cue position and looping.
+The artists and label do not endorse First Mix.
+Catalog licenses were verified on the above release pages on November 18, 2026.
+File hashes and source download URLs are recorded in licenses.json.
+
+After Hours / Open Water — First Mix originals
+Original synthesized house practice loops created for this project.
+No third-party recordings, samples or compositions are used.
+The source generator is scripts/prepare-assets.py in the project repository.
+
+The Inter font is by Rasmus Andersson and contributors, under SIL Open Font
+License 1.1. See INTER-LICENSE.txt.
+
+Imported audio is supplied by the user and remains on that user's device.
+No rights to user-supplied recordings are transferred or claimed by First Mix.

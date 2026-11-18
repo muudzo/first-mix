@@ -1,0 +1,8 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync,existsSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+const root=new URL('../dist/',import.meta.url),read=p=>readFileSync(new URL(p,root));
+test('PWA manifest and icons are complete',()=>{const m=JSON.parse(read('manifest.webmanifest'));assert.equal(m.display,'standalone');assert.ok(m.icons.some(i=>i.sizes==='192x192'));assert.ok(m.icons.some(i=>i.sizes==='512x512'&&i.purpose.includes('maskable')));for(const icon of m.icons){const data=read(icon.src);assert.equal(data.subarray(1,4).toString(),'PNG');}});
+test('every precached asset exists and the catalog covers all three music collections',()=>{const sw=read('sw.js').toString();const shell=sw.slice(sw.indexOf('[')+1,sw.indexOf('];'));for(const [,p]of shell.matchAll(/'\.\/([^']*)'/g))assert.ok(existsSync(new URL(p||'index.html',root)),p);const catalog=JSON.parse(read('catalog.json'));assert.equal(catalog.length,7);assert.deepEqual([...new Set(catalog.map(t=>t.collection))].sort(),['afro','hiphop','house']);for(const t of catalog){assert.ok(existsSync(new URL(t.url,root)));assert.ok(t.duration>30);assert.equal(t.peaks.length,420);}});
+test('hosted catalog hashes match the license and source records',()=>{const licenses=JSON.parse(read('assets/licenses.json'));assert.equal(licenses.length,5);for(const license of licenses){assert.equal(license.license,'CC BY 4.0');assert.match(license.release,/https:\/\/(www.toucanmusic.com|freemusicarchive.org)\//);assert.equal(createHash('sha256').update(read('assets/'+license.file)).digest('hex'),license.sha256);}});

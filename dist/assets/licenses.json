@@ -1,0 +1,70 @@
+[
+  {
+    "title": "Lost The Plot",
+    "artist": "Beat Doctor",
+    "credit": "Toucan Music",
+    "release": "https://www.toucanmusic.com/releases/tou253",
+    "download": "https://www.toucanmusic.com/ccount/click.php?id=280",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "verifiedOn": "2026-11-18",
+    "file": "lost-the-plot.mp3",
+    "sha256": "a497430476b036b990e9e29f70211befb115330bf5f5b3819b78b296f200f09e",
+    "modifications": "File bytes unchanged; the app permits real-time tempo, loop and EQ changes."
+  },
+  {
+    "title": "World of Fantasy (Beat Doctor remix)",
+    "artist": "Psychadelik Pedestrian",
+    "credit": "Toucan Music",
+    "release": "https://www.toucanmusic.com/releases/tou272",
+    "download": "https://www.toucanmusic.com/ccount/click.php?id=338",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "verifiedOn": "2026-11-18",
+    "file": "world-of-fantasy.mp3",
+    "sha256": "ad745169b410c5d7aae4c5c7cb83942f107e7c37becd1eb1eb4db25832e506b4",
+    "modifications": "File bytes unchanged; the app permits real-time tempo, loop and EQ changes."
+  },
+  {
+    "title": "Afrobeat",
+    "artist": "Alex Morgan",
+    "credit": "Alex Morgan / Free Music Archive",
+    "release": "https://freemusicarchive.org/music/alex-morgan/pop-afro-party-instrumentals/afrobeat-1/",
+    "download": "https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/WC9pchdl5zADdeoiIl3H7WmUDAMAmHORGpiWSFNG.mp3",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "verifiedOn": "2026-11-18",
+    "file": "afrobeat.mp3",
+    "sha256": "b0996cc536147f63826b3f553b40d0d3b31a4153493314328aba91f6a3192b73",
+    "aiGenerated": true,
+    "modifications": "File bytes unchanged; the app permits real-time tempo, loop and EQ changes."
+  },
+  {
+    "title": "Hot Amapiano Beats",
+    "artist": "Alex Morgan",
+    "credit": "Alex Morgan / Free Music Archive",
+    "release": "https://freemusicarchive.org/music/alex-morgan/pop-afro-party-instrumentals/hot-amapiano-beats/",
+    "download": "https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/cUcs6uMOXcjxxrLW0btTwHzwF1kK9Ga4LxlZzfAd.mp3",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "verifiedOn": "2026-11-18",
+    "file": "hot-amapiano-beats.mp3",
+    "sha256": "e4b9a4b972f48a1060624bee6bf7e63e09fb718c7dcc76001b81dd28e3a4eff4",
+    "aiGenerated": true,
+    "modifications": "File bytes unchanged; the app permits real-time tempo, loop and EQ changes."
+  },
+  {
+    "title": "Scatter",
+    "artist": "1000 Handz",
+    "credit": "1000Handz.com \u2014 https://1000handz.com",
+    "release": "https://freemusicarchive.org/music/1000-handz/cc-by-free-to-use-melodic-rap-instrumentals-vol-2/scatter-2/",
+    "download": "https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/b8r6D0NgiE66xfw5a4qvJN4hjL9HJGbz6q952gYJ.mp3",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "verifiedOn": "2026-11-18",
+    "file": "scatter.mp3",
+    "sha256": "7fc2dc02a2740f4ba6c46fda0bfdd5d172f318a3534024b1c1c06c309bb79976",
+    "aiGenerated": false,
+    "modifications": "File bytes unchanged; the app permits real-time tempo, loop and EQ changes."
+  }
+]

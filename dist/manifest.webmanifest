@@ -1,0 +1,18 @@
+{
+  "id":"./",
+  "name":"First Mix — Learn to DJ",
+  "short_name":"First Mix",
+  "description":"Your space to learn to DJ. Real decks, guided lessons, and an offline music crate.",
+  "start_url":"./#studio",
+  "scope":"./",
+  "display":"standalone",
+  "background_color":"#000000",
+  "theme_color":"#000000",
+  "orientation":"any",
+  "icons":[
+    {"src":"assets/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"assets/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ],
+  "categories":["music","education"],
+  "shortcuts":[{"name":"Mix studio","url":"./#studio"},{"name":"Learn to DJ","url":"./#learn"}]
+}
